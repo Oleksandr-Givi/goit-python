@@ -20,6 +20,9 @@ setuptools.setup(
         "License :: OSI Approved :: MIT License",
         "Operating System :: OS Independent",
     ],
+    entry_points = {
+        'console_scripts' : ['clean-folder=clean_folder.clean:sort_files_in_dir',],
+    },
     package_dir={"": "src"},
     packages=setuptools.find_packages(where="src"),
     python_requires=">=3.6",
