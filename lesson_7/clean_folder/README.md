@@ -1,1 +1,0 @@
-This scrypts sorted files in folders.
